@@ -29,10 +29,7 @@ int main()
 	//cout << e << endl;
 	//cin >> a;
 	//cout << a;
-	int a=5;
-	int b[40]={12,23,2};
 	cout << "hello world"<< endl ;
-	conversion();
 	return 0;
 }
 
