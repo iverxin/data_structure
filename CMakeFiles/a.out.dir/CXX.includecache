@@ -24,6 +24,14 @@ stdio.h
 head_usr.h
 /home/spade/Data_Structure/src/head_usr.h
 
+/home/spade/Data_Structure/src/queue.cpp
+queue.h
+/home/spade/Data_Structure/src/queue.h
+
+/home/spade/Data_Structure/src/queue.h
+head_usr.h
+/home/spade/Data_Structure/src/head_usr.h
+
 /home/spade/Data_Structure/src/stack.cpp
 stack.h
 /home/spade/Data_Structure/src/stack.h

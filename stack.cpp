@@ -4,7 +4,7 @@ using namespace std;
 
 Status InitStack(SqStack &S)
 {
-	/*¹¹ÔìÒ»¸ö¿ÕÕ»*/
+	/*æ„é€ ä¸€ä¸ªç©ºæ ˆ*/
 	S.base = (SElemType *)malloc(STACK_INIT_SIZE*sizeof(SElemType));
 	if (!S.base)
 		exit(OVERFLOW);
@@ -15,7 +15,7 @@ Status InitStack(SqStack &S)
 
 Status GetTop(SqStack S, SElemType &e)
 {
-	//Èôtop²»Îª¿Õ£¬ÔòÓÃe·µ»ØÕ»¶¥ÔªËØ£¬²¢ÇÒ·µ»ØOK£¬·ñÔò·µ»Øerror
+	//è‹¥topä¸ä¸ºç©ºï¼Œåˆ™ç”¨eè¿”å›æ ˆé¡¶å…ƒç´ ï¼Œå¹¶ä¸”è¿”å›OKï¼Œå¦åˆ™è¿”å›error
 	if (S.top == S.base) return ERROR;
 	e = *(S.top - 1);
 	return OK; 
@@ -23,10 +23,10 @@ Status GetTop(SqStack S, SElemType &e)
 
 Status Push(SqStack &S, SElemType e)
 {
-	//²åÈëÔªËØeÎªĞÂµÄÕ»¶¥ÔªËØ
+	//æ’å…¥å…ƒç´ eä¸ºæ–°çš„æ ˆé¡¶å…ƒç´ 
 	if ((S.top - S.base) >= S.stacksize)
 	{
-		//Õ»Âú£¬×·¼Ó¿Õ¼ä
+		//æ ˆæ»¡ï¼Œè¿½åŠ ç©ºé—´
 		S.base = (ElemType *)realloc(S.base, sizeof(ElemType)*(S.stacksize + STACKINCREMENT));
 		if (!S.base) exit( OVERFLOW);
 		S.stacksize += STACKINCREMENT;
@@ -39,7 +39,7 @@ Status Push(SqStack &S, SElemType e)
 
 Status Pop(SqStack & S, SElemType &e)
 {
-	//³öÕ»
+	//å‡ºæ ˆ
 	if (S.top == S.base) return (ERROR);
 	e = *--S.top; //echos to e *(--S.top)
 	return OK;
@@ -53,7 +53,7 @@ Status StackEmpty(SqStack S)
 }
 void conversion()
 {
-	//Ê®½øÖÆ×ª»»³Éx½øÖÆ
+	//åè¿›åˆ¶è½¬æ¢æˆxè¿›åˆ¶
 	SqStack S;
 	int N ;
 	ElemType e; 
@@ -86,7 +86,7 @@ Status DestoryStack(SqStack &S)
 }
 
 
-void LineEdit() //ÀûÓÃ×Ö·ûÕ»S£¬´ÓÖÕ¶Ë½ÓÊÜÒ»ĞĞ²¢´«ËÍÖÁµ÷ÓÃ¹ı³ÌµÄÊı¾İÇø
+void LineEdit() //åˆ©ç”¨å­—ç¬¦æ ˆSï¼Œä»ç»ˆç«¯æ¥å—ä¸€è¡Œå¹¶ä¼ é€è‡³è°ƒç”¨è¿‡ç¨‹çš„æ•°æ®åŒº
 {
 	SqStack S;
 	InitStack(S);
@@ -108,12 +108,10 @@ void LineEdit() //ÀûÓÃ×Ö·ûÕ»S£¬´ÓÖÕ¶Ë½ÓÊÜÒ»ĞĞ²¢´«ËÍÖÁµ÷ÓÃ¹ı³ÌµÄÊı¾İÇø
 		ch = getchar();
 		}
 		/*
-		ÔÚ´Ë´¦½«Õ»ÖĞµÄÊı¾İÔªËØËÍÖÁÊı¾İÇø
+		åœ¨æ­¤å¤„å°†æ ˆä¸­çš„æ•°æ®å…ƒç´ é€è‡³æ•°æ®åŒº
 		*/
 	ClearStack(S);
 	if (ch != EOF) ch = getchar();
 	}
 	DestoryStack(S);
 }
-
-

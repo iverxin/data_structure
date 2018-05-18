@@ -150,6 +150,33 @@ linearlist.cpp.s:
 	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/linearlist.cpp.s
 .PHONY : linearlist.cpp.s
 
+queue.o: queue.cpp.o
+
+.PHONY : queue.o
+
+# target to build an object file
+queue.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/queue.cpp.o
+.PHONY : queue.cpp.o
+
+queue.i: queue.cpp.i
+
+.PHONY : queue.i
+
+# target to preprocess a source file
+queue.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/queue.cpp.i
+.PHONY : queue.cpp.i
+
+queue.s: queue.cpp.s
+
+.PHONY : queue.s
+
+# target to generate assembly for a file
+queue.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/queue.cpp.s
+.PHONY : queue.cpp.s
+
 stack.o: stack.cpp.o
 
 .PHONY : stack.o
@@ -216,6 +243,9 @@ help:
 	@echo "... linearlist.o"
 	@echo "... linearlist.i"
 	@echo "... linearlist.s"
+	@echo "... queue.o"
+	@echo "... queue.i"
+	@echo "... queue.s"
 	@echo "... stack.o"
 	@echo "... stack.i"
 	@echo "... stack.s"

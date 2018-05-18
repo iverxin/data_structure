@@ -16,7 +16,7 @@
         },
         {
             "label": "build-relaese",
-            "command": "cmake -DCMAKE_BUILD_TYPE=Release . && make",
+            "command": "cmake -DCMAKE_BUILD_TYPE=Relaese . && make",
             "args": [
             ],
             "type": "shell"

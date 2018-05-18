@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/spade/Data_Structure/src/linearlist.cpp" "/home/spade/Data_Structure/src/CMakeFiles/a.out.dir/linearlist.cpp.o"
+  "/home/spade/Data_Structure/src/queue.cpp" "/home/spade/Data_Structure/src/CMakeFiles/a.out.dir/queue.cpp.o"
   "/home/spade/Data_Structure/src/stack.cpp" "/home/spade/Data_Structure/src/CMakeFiles/a.out.dir/stack.cpp.o"
   "/home/spade/Data_Structure/src/start.cpp" "/home/spade/Data_Structure/src/CMakeFiles/a.out.dir/start.cpp.o"
   )

@@ -10,9 +10,9 @@
 typedef int SElemType;
 //typedef char SElemType;
 /*------------------start!-------------------------
-*Õ»µÄË³Ğò±êÊ¶
-*date£º2018.5.18
-*author	£ºspade
+*Õ»ï¿½ï¿½Ë³ï¿½ï¿½ï¿½Ê¶
+*dateï¿½ï¿½2018.5.18
+*author	ï¿½ï¿½spade
 */
 
 typedef struct{
@@ -21,6 +21,18 @@ typedef struct{
 	int stacksize; 
 }SqStack;
 
+typedef struct 
+{
+	int x_seat;
+	int y_seat;
+}PosType;//è¿·å®«åæ ‡
+
+typedef struct
+{
+	int ord ; 
+	PosType seat;
+	int di;
+}MG_SElemType;
 
 Status InitStack(SqStack &S);
 Status GetTop(SqStack S, SElemType &e);
@@ -28,4 +40,4 @@ Status Pop(SqStack & S, SElemType &e);
 Status Push(SqStack &S, SElemType e);
 Status StackEmpty(SqStack S);
 void conversion();
-
+void LineEdit();

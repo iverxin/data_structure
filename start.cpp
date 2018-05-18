@@ -29,6 +29,9 @@ int main()
 	//cout << e << endl;
 	//cin >> a;
 	//cout << a;
+	PosType seat1;
+	seat1.x_seat=1;
+	seat1.y_seat=2;
 	cout << "hello world"<< endl ;
 	return 0;
 }

@@ -5,6 +5,10 @@ CMakeFiles/a.out.dir/linearlist.cpp.o: head_usr.h
 CMakeFiles/a.out.dir/linearlist.cpp.o: linearlist.cpp
 CMakeFiles/a.out.dir/linearlist.cpp.o: linearlist.h
 
+CMakeFiles/a.out.dir/queue.cpp.o: head_usr.h
+CMakeFiles/a.out.dir/queue.cpp.o: queue.cpp
+CMakeFiles/a.out.dir/queue.cpp.o: queue.h
+
 CMakeFiles/a.out.dir/stack.cpp.o: head_usr.h
 CMakeFiles/a.out.dir/stack.cpp.o: stack.cpp
 CMakeFiles/a.out.dir/stack.cpp.o: stack.h

@@ -5,6 +5,10 @@ CMakeFiles/a.out.dir/linearlist.cpp.o
  /home/spade/Data_Structure/src/head_usr.h
  /home/spade/Data_Structure/src/linearlist.cpp
  /home/spade/Data_Structure/src/linearlist.h
+CMakeFiles/a.out.dir/queue.cpp.o
+ /home/spade/Data_Structure/src/head_usr.h
+ /home/spade/Data_Structure/src/queue.cpp
+ /home/spade/Data_Structure/src/queue.h
 CMakeFiles/a.out.dir/stack.cpp.o
  /home/spade/Data_Structure/src/head_usr.h
  /home/spade/Data_Structure/src/stack.cpp
