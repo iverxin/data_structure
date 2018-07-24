@@ -45,6 +45,7 @@ Status Dequeue(LinkQueue &Q , QElemType &e)
     return OK;
 }
 
+/* 循环队列函数 */
 Status InitSqQueue(SqQueue & Q)
 {
     // 构造一个空队列Q

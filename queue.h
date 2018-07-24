@@ -35,3 +35,12 @@ typedef struct
 Status InitQueue(LinkQueue &Q);
 Status DestoryQueue(LinkQueue &Q);
 Status ClearQueue(LinkQueue &Q);
+
+
+/* 循环队列 */
+
+Status InitSqQueue(SqQueue & Q);
+
+int SqQueueLength(SqQueue Q);
+int SqEnQueue(SqQueue &Q , QElemType e);
+Status DeQueue(SqQueue &Q , QElemType & e);

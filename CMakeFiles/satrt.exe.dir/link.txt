@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/satrt.exe.dir/linearlist.cpp.o CMakeFiles/satrt.exe.dir/stack.cpp.o CMakeFiles/satrt.exe.dir/start.cpp.o  -o satrt.exe 

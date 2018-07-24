@@ -1,7 +1,9 @@
 #include "head_usr.h"
 #include <stdio.h>
+#include <stdlib.h>
 #include "linearlist.h"
 #include "stack.h"
+#include "tree.h"
 using namespace std;
 int main()
 {
@@ -29,12 +31,14 @@ int main()
 	//cout << e << endl;
 	//cin >> a;
 	//cout << a;
-	PosType seat1;
-	seat1.x_seat=1;
-	seat1.y_seat=2;
+
 	cout << "hello world"<< endl ;
+	BiTree T;
+	//T=(BiTree)malloc(sizeof(BiTNode));
+	//CreateBiTree(T);
 	return 0;
 }
+
 
 
 

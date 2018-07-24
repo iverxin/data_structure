@@ -1,3 +1,0 @@
-/home/spade/Data_Structure/src/CMakeFiles/rebuild_cache.dir
-/home/spade/Data_Structure/src/CMakeFiles/a.out.dir
-/home/spade/Data_Structure/src/CMakeFiles/edit_cache.dir
