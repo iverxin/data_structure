@@ -3,6 +3,7 @@
 #include "head_usr.h"
 typedef int TElemType;
 
+//Start
 /* 二叉树顺序存储结构 */
 #define MAX_TREE_SIZE 100 //二叉树的最大节点数
 typedef TElemType SqBiTree[MAX_TREE_SIZE];  //0号单元存储根节点
